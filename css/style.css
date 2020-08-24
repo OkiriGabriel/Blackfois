@@ -903,13 +903,15 @@ justify-content: center !important;
       }
       .nav-list{
         margin-left: 0px !important;
+        justify-content: center !important;
+          text-align: center;
       }
       .nav-list a{
-          justify-content: center !important;
-          text-align: center;
+          
           font-size: 20px !important;
           margin-top: 8px !important;
           font-weight: bold;
+
       }
       .nav-dropdown{
         margin-left: 0px !important;
@@ -921,31 +923,29 @@ justify-content: center !important;
         margin-top: 0px !important;
         background:transparent !important;
       }
-      .t-btn{
-          display: none !important;
-      }
+    
    
    /*Header*/
    .blacky-intro{
        margin-top: 0 !important;
    }
    .blacky-intro h1{
-       font-size: 40px !important;
+       font-size: 25px !important;
         align-items: center !important;
    }
    .blacky-intro p{
     font-size:15px !important;
 }
     .blacky-intro span{
-        font-size:13px !important;
+        font-size:14px !important;
         margin-top: 100px !important;
     }
    /*Section-1*/
    .blacky-first h1{
-       font-size: 30px !important;
+       font-size: 28px !important;
    }
    .blacky-first p{
-       font-size: 18px !important;
+       font-size: 15px !important;
    }
     
    
@@ -975,15 +975,8 @@ justify-content: center !important;
        margin: auto !important;
        align-items:center !important;
    }
-   .cfd{
-   background: #e6e6e6   !important;
-  }
-  .one{
-      background: #ffffe6 !important;
-  }
-  .two{
-    background:  #ffffcc!important;
-}
+ 
+
 .three{
     background:  #d9d9d9!important;
  }
@@ -1008,12 +1001,23 @@ justify-content: center !important;
     font-weight: 700;
     letter-spacing: 1px; }
    
+    .blacky-section{
+        margin-bottom:-50px !important;
+        padding-bottom:-90px !important;
+        margin-top:-50px !important;
+        padding-top:-90px !important;
+    }
+    .blacky-heading-2{
+        margin-bottom:-0px !important;
+        padding-bottom:-10px !important;   
+    }
     .ui---a li a img{
         width: 20px;
         padding-right: 10px !important;
         margin-top: 50 !important;
         justify-content: center !important;
         margin-left: 25px !important;
+        margin-bottom: 15px !important;
       }
       .ui---a li a img:hover{
         color: #ccc;
@@ -1058,8 +1062,117 @@ justify-content: center !important;
    .discuss_projects p{
        font-size: 15px !important;
    }
-   
-     
+   /*about*/
+
+.about-blacky{
+    margin-top: 50px !important;
+    margin-bottom: -500px !important;
+  }
+  .about-blacky_text h3{
+    font-size: 15px !important;
+    font-weight: bold !important;
+    margin-bottom: 0px !important;
+  }
+  .area_text p{
+    font-size: 30px !important;
+    margin-top: -100px !important;
+  }
+  .about_me{
+    margin-top: -2600px !important;
+    margin-bottom: 20px !important;
+  }
+  .my_Pic img{
+    width:100% !important;
+  }
+  .about_area{
+    margin-top: 0px !important;
+    margin-bottom: -150px !important;
+  }
+  .about_e_details h3{
+    margin-top: 0px !important;
+    font-size:45px !important;
+    font-weight: bold;
+  }
+  .about_e_details p{
+    margin-top: 5px !important;
+    font-size:20px !important;
+  }
+
+  
+/* ----------------
+Contact page
+ -------------------*/
+
+ .map {
+	height:90%;
+  background: #ddd;
+  margin-top: 80px;
+}
+
+.map iframe {
+
+	width: 100%;
+	height: 100%;
+	left: 0;
+  top: 0;
+  margin-top: 30px;
+}
+
+.contact-warp {
+    padding: 100px 15px !important;
+    margin-left: 0px !important;
+
+}
+
+.contact-warp p {
+	padding-top: 40px;
+  margin-bottom: 50px;
+  margin-top: -20px !important;
+  font-size: 18px !important;
+}
+
+.contact-warp ul {
+	margin-bottom: 90px;
+	list-style: none;
+}
+
+.contact-warp ul li {
+	font-size: 14px;
+	color: #0a183d;
+	font-size: 14px;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+
+.contact-from input,
+.contact-from textarea {
+	width: 100%;
+	height: 57px;
+	padding: 0 100px;
+	border: none;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 14px;
+	color: #626469;
+	background: #f5f6fa;
+	box-shadow: none;
+	outline: none;
+}
+
+.contact-from textarea {
+	resize: none;
+	padding: 24px 38px 10px;
+	height: 177px;
+	margin-bottom: 57px;
+}
+.blacky-contact  h2{
+    font-size:  25px !important;
+  font-weight: bold !important;
+  margin-bottom: -20px !important;
+}
+
+ 
 }
 
 @media screen and (width: 411px){
@@ -1069,12 +1182,15 @@ justify-content: center !important;
         margin-top: 80px !important;
         justify-content: center !important;
         margin-left: 33px !important;
-        margin-bottom: -30px !important;
+        margin-bottom: 15px !important;
       }
       .ui---a li a img:hover{
         color: #ccc;
       }
-      
+      .about_me{
+        margin-top: 19000px !important;
+        margin-bottom: 0px !important;
+      }
 }
 
 @media screen and (width: 414px){
@@ -1084,7 +1200,7 @@ justify-content: center !important;
         margin-top: 80px !important;
         justify-content: center !important;
         margin-left: 34px !important;
-        margin-bottom: -30px !important;
+        margin-bottom: 15px !important;
       }
       .ui---a li a img:hover{
         color: #ccc;
@@ -1112,7 +1228,7 @@ justify-content: center !important;
         margin-top: 80px !important;
         justify-content: center !important;
         margin-left: 18px !important;
-        margin-bottom: -30px !important;
+        margin-bottom: 15px !important;
       }
       .ui---a li a img:hover{
         color: #ccc;
