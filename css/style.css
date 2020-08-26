@@ -1084,7 +1084,7 @@ justify-content: center !important;
   .btn-black {
 
     background: linear-gradient(to right, hsl(61, 55%, 50%) -10%, hsl(42, 70%, 51%) 100%);
-    color: #fff;
+    color: #ffffff;
     display: inline-block;
     padding: 10px 40px;
      border-radius: 5px;
