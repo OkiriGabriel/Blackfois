@@ -882,13 +882,13 @@ justify-content: center !important;
     .navbar-grey{
         background-color: #f4f4f4;
       }
+
       .nav-link{
       color: 	hsl(233, 8%, 62%) !important;
       font-size: 20px !important;
       }
       .nav-list a:hover {
         color: #ccc !important;
-        border-bottom: #ccc solid 1px;
         font-weight: bold;
         cursor: pointer;
       }
@@ -896,34 +896,28 @@ justify-content: center !important;
         text-decoration:none !important;
         margin-left: 0px !important;
       }
+      .navbar-nav{
+          padding-bottom: 10px !important;
+          justify-content: left !important;
+          margin-left: -40px !important;
+      }
       .navbar-brand img{
         width: 50% !important;
         height: 60px !important;
         margin-left: -40px !important;
       }
-      .nav-list{
-        margin-left: 0px !important;
-        justify-content: center !important;
-          text-align: center;
-      }
-      .nav-list a{
-          
-          font-size: 20px !important;
-          margin-top: 8px !important;
-          font-weight: bold;
-
-      }
-      .nav-dropdown{
-        margin-left: 0px !important;
-        padding:  10px 40px;
-        -webkit-transition: 0.3s;
-        -moz-transition: 0.3s;
-        -o-transition: 0.3s;
-        transition: 0.3s ease-out;
-        margin-top: 0px !important;
-        background:transparent !important;
-      }
+   
+    .nav-list{
+        margin-top: 15px !important;
+        /* align-items: center !important;
+        text-align: center; */
+        margin-right: 0px!important;
+        margin-left: -50px !important;
+        font-size: 20px !important;
+    }
     
+    
+
    
    /*Header*/
    .blacky-intro{
@@ -967,19 +961,7 @@ justify-content: center !important;
     font-size: 25px !important;
   }
 
-   .new{
-       width: 370px !important;
-       align-items:center !important;
-   }
-   .copyright{
-       margin: auto !important;
-       align-items:center !important;
-   }
- 
 
-.three{
-    background:  #d9d9d9!important;
- }
  .bread{
      font-size: 23px !important
  }
@@ -1068,6 +1050,64 @@ justify-content: center !important;
     margin-top: 50px !important;
     margin-bottom: -500px !important;
   }
+  .t-btn{
+      display: none !important;
+  }
+  
+.btn-danger {
+
+    background: linear-gradient(to right, hsl(61, 55%, 50%) -10%, hsl(42, 70%, 51%) 100%);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 40px;
+     border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .btn-danger:hover {
+    border: 1px solid  linear-gradient(to right, hsl(61, 55%, 50%) -10%, hsl(42, 70%, 51%) 100%) !important;
+  color: rgb(255, 255, 255) !important;
+  transition: 1s ease;
+  font-weight: bold;
+    background: transparent;
+  }
+
+  .btn-black {
+
+    background: linear-gradient(to right, hsl(61, 55%, 50%) -10%, hsl(42, 70%, 51%) 100%);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 40px;
+     border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .btn-black:hover {
+    border: 1px solid  linear-gradient(to right, hsl(61, 55%, 50%) -10%, hsl(42, 70%, 51%) 100%) !important;
+  color: rgb(255, 255, 255) !important;
+  transition: 1s ease;
+  font-weight: bold;
+    background: transparent;
+  }
+  
   .about-blacky_text h3{
     font-size: 15px !important;
     font-weight: bold !important;
@@ -1172,7 +1212,15 @@ Contact page
   margin-bottom: -20px !important;
 }
 
- 
+.main-menu {
+		text-align: right;
+		display: none;
+	}
+ .dropdown-menu{
+     margin-left: 12px !important;
+     font-size: 17px !important;
+     background-color: #fff !important;
+ }
 }
 
 @media screen and (width: 411px){
@@ -1233,6 +1281,24 @@ Contact page
       .ui---a li a img:hover{
         color: #ccc;
       }
+      /* .nav-dropdown{
+        justify-content: center !important;
+        text-align: center !important;
+        margin-left: -50px;
+        padding:  10px 40px;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s ease-out;
+        margin-top: 10px;
+        background: #cac !important;
+      } */
       
 }
+
+
+
+
+
+
 
