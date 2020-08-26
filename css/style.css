@@ -1107,6 +1107,17 @@ justify-content: center !important;
   font-weight: bold;
     background: transparent;
   }
+
+  /**/
+  .testimonial_area {
+    padding: 130px 0;
+    background-image: url(../images/bg-newlet.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-size: cover;
+    background-position: center center;
+  }
   
   .about-blacky_text h3{
     font-size: 15px !important;

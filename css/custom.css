@@ -4,6 +4,13 @@
   margin-top: -30px !important;
   margin-bottom: -30px !important;
 }
+
+.header {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 .btn .fe {
   position: relative;
   top: 2px;
@@ -636,6 +643,7 @@ background: linear-gradient(to right, hsl(61, 65%, 54%) -10%, hsl(42, 75%, 52%) 
   background-size: cover;
   background-position: center center;
 }
+
 
 .testimonial_area:before {
   position: absolute;
