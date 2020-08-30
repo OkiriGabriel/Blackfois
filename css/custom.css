@@ -455,7 +455,7 @@ border-radius: 5px;
   border: 1px solid  linear-gradient(to right, hsl(61, 55%, 50%) -10%, hsl(42, 70%, 51%) 100%);
 color: rgb(255, 255, 255) !important;
 transition: 1s ease;
-  background: transparent;
+  background: linear-gradient(to right, hsl(61, 70%, 55%) -10%, hsl(42, 85%, 55%) 100%);
   font-weight: bold;
 }
 
@@ -586,6 +586,7 @@ background: linear-gradient(to right, hsl(61, 65%, 54%) -10%, hsl(42, 75%, 52%) 
         }
         .blacky-footer-widget li a img{
           margin-left: 20px;
+          /* width: 60%; */
         } 
 
 /*counter section*/
@@ -990,6 +991,7 @@ font-size: 20px !important;
 .blacky-footer-widget{
   margin-left: 140px !important;
 }
+
 .center{
   text-align: center !important;
 }
