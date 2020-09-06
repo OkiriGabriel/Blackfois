@@ -532,8 +532,60 @@ background: linear-gradient(to right, hsl(61, 65%, 54%) -10%, hsl(42, 75%, 52%) 
 }
 
 
+/*blog*/
 
 
+/* Blog*/
+.blog-entry {
+	background: #fff;
+	-webkit-box-shadow: 0px 10px 18px -8px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 10px 18px -8px rgba(0, 0, 0, 0.1);
+}
+
+.blog{
+	text-decoration: none !important;
+	list-style: none;
+}
+		  .blog a:hover{
+			color: #1ba12d !important;
+		  font-weight: bold !important; }
+
+.blog .text a:hover{
+	color: rgb(53, 50, 50) !important;
+	font-weight: bold !important;
+}
+
+.block-27 ul {
+	padding: 0;
+	margin: 0; }
+	.block-27 ul li {
+	  display: inline-block;
+	  margin-bottom: 4px;
+	  font-weight: 400; }
+	  .block-27 ul li a, .block-27 ul li span {
+		color: gray;
+		text-align: center;
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 50%;
+		border: 1px solid #e6e6e6; }
+	  .block-27 ul li.active a, .block-27 ul li.active span {
+		background: #1ba12d;
+		color: #fff;
+		border: 1px solid transparent; }
+  
+  
+			.block-20 {
+				overflow: hidden;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center center;
+				height: 250px;
+				width: 100%;
+				position: relative;
+				display: block; }
 
 /*footer*/
 .blacky-footer {

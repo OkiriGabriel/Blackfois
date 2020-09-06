@@ -1232,6 +1232,86 @@ Contact page
      font-size: 17px !important;
      background-color: #fff !important;
  }
+
+ /*news*/
+ .news{
+    text-align:left !important;
+    align-content: left !important;
+    justify-content: left !important;
+    
+}
+.headline{
+    font-size: 20px !important;
+    line-height: 25px !important;
+}
+.news p{
+    font-size: 14px !important;
+    line-height: 25px !important;
+}
+
+
+.news h5{
+    font-size: 10px !important;
+}
+.articles{
+    margin-top: 100px!important;
+}
+.othernews{
+    font-size: 20px !important;
+}
+.date{
+    margin-top: -5px !important;
+    margin-bottom: 10px !important;
+}
+.writer{
+    margin-top: -15px !important;
+}
+.tag{
+    margin-top:10px !important;
+}
+.img-fluid{
+    width: 100% !important;
+    height: 100% !important;
+}
+.img-fluidd{
+    width: 150px !important;
+   height: 100px !important;
+ 
+}
+.blogg{
+    width: 100px !important;
+    height: 100px !important;
+}
+.blt{
+    margin-top: -120px !important;
+    margin-left: 90px !important;
+    font-size: 15px !important;
+}
+    .blp{
+        margin-top: -5px !important;
+        margin-left: 90px !important;
+        text-align: left !important;
+         font-size: 10px !important;
+        
+    }
+    .blpp{
+        margin-top: -20px !important;
+        margin-left: 90px !important;
+        text-align: left !important;
+         font-size:5px !important;
+    }
+    .blt a{
+        color: #000 !important;
+    }
+    .bltt a{
+        color: #fff !important;
+    }
+    .imge{
+        width: 100% !important;
+        height: 200px!important;
+       align-items: center;
+       margin-top: 60px !important;
+    }
 }
 
 @media screen and (width: 411px){
