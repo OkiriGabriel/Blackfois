@@ -948,12 +948,13 @@ justify-content: center !important;
     font-size: 20px !important;
    }
    .single_service-body h3{
-    font-size: 25px !important;
+    font-size: 20px !important;
     margin-top: 10px !important;
     font-weight: bold;
     }
      .single_service-body p{
-        font-size: 17px !important;
+        font-size: 14px !important;
+        text-align:left !important;
      }
 
        /*our works*/
@@ -1312,6 +1313,12 @@ Contact page
        align-items: center;
        margin-top: 60px !important;
     }
+    .testimonial_area .single_testmonial p {
+        color: #fff;
+        font-size: 10px;
+        line-height: 28px;
+        margin: 34px 0;
+      }
 }
 
 @media screen and (width: 411px){
