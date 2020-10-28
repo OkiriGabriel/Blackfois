@@ -996,14 +996,21 @@ justify-content: center !important;
     }
     .ui---a li a img{
         width: 20px;
-        padding-right: 10px !important;
-        margin-top: 50 !important;
         justify-content: center !important;
-        margin-left: 25px !important;
+        text-align: center !important;
+        margin-left:0px !important;
+        margin-top: 50px !important;
         margin-bottom: 15px !important;
       }
       .ui---a li a img:hover{
         color: #ccc;
+      }
+     
+      .social-icon{
+        margin-right: 0px;
+        justify-content: none !important;
+        text-align: none !important;
+        margin-left: 0px !important;
       }
     
 /*folio area*/ 
@@ -1227,7 +1234,11 @@ Contact page
 .main-menu {
 		text-align: right;
 		display: none;
-	}
+    }
+    .dropdown-item{
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+    }
  .dropdown-menu{
      margin-left: 12px !important;
      font-size: 17px !important;
@@ -1323,12 +1334,12 @@ Contact page
 
 @media screen and (width: 411px){
     .ui---a li a img{
-        width: 40px;
-        padding-right: 0px !important;
+        width: 50px;
+        padding-right: 10px !important;
         margin-top: 80px !important;
         justify-content: center !important;
-        margin-left: 33px !important;
-        margin-bottom: 15px !important;
+        margin-left: 10px !important;
+        margin-bottom: 5px !important;
       }
       .ui---a li a img:hover{
         color: #ccc;
@@ -1342,10 +1353,10 @@ Contact page
 @media screen and (width: 414px){
     .ui---a li a img{
         width: 40px;
-        padding-right: 0px !important;
+        padding-right: 10px !important;
         margin-top: 80px !important;
         justify-content: center !important;
-        margin-left: 34px !important;
+        margin-left: 10px !important;
         margin-bottom: 15px !important;
       }
       .ui---a li a img:hover{
@@ -1356,11 +1367,11 @@ Contact page
 @media screen and (width: 375px){
     .ui---a li a img{
         width: 40px;
-        padding-right: 0px !important;
+        padding-right: 10px !important;
         margin-top: 80px !important;
         justify-content: center !important;
-        margin-left: 27px !important;
-        margin-bottom: -30px !important;
+        margin-left: 10px !important;
+        margin-bottom: 5px !important;
       }
       .ui---a li a img:hover{
         color: #ccc;
@@ -1370,10 +1381,10 @@ Contact page
 @media screen and (width: 320px){
     .ui---a li a img{
         width: 30px;
-        padding-right: 0px !important;
+        padding-right: 10px !important;
         margin-top: 80px !important;
         justify-content: center !important;
-        margin-left: 18px !important;
+        margin-left: 10px !important;
         margin-bottom: 15px !important;
       }
       .ui---a li a img:hover{
