@@ -42,7 +42,7 @@
 
   </head>
   <body class="">
-                <header class="container-fluid header--1 bg-black">
+                <header class="container-fluid header--1 fixed-top bg-black">
                         <div class="row">
                        <div class="col-12 lg-12 sm-12">
                        <div class="container navbar-head">
@@ -307,7 +307,7 @@
                     </div>
       
 
-
+                    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -321,13 +321,25 @@
     <script type="text/javascript" lang="javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" lang="javascript" src="js/jquery.validate.min.js"></script>
 
+   <!-- top -bottom -->
    <script>
-       
-
-
-
-
-   </script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
     
 
     <script>
