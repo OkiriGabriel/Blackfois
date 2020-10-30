@@ -980,7 +980,7 @@ Contact page
   margin-right: 0px;
   justify-content: center !important;
   text-align: center !important;
-  margin-left: 100px !important;
+  margin-left: 50px !important;
 }
   /* Nav */
 .navbar-grey{
@@ -1050,7 +1050,12 @@ font-size: 20px !important;
 .blacky-footer-widget{
   margin-left: 140px !important;
 }
-
+.ede{
+  margin-left:330px !important;
+}
+.edee{
+  margin-left:100px !important;
+}
 .center{
   text-align: center !important;
 }
@@ -1121,7 +1126,7 @@ font-size: 30px !important;
 .reserved p{
 justify-content: center !important;
 text-align: center !important;
-margin-left: 350px !important;
+margin-left: 250px !important;
 margin-top: 50px !important;
 }
 .blacck{
